@@ -1,0 +1,8 @@
+﻿
+#ifndef __HI_LANG_MATERIALIZE_GLOBAL_OBJECT__
+#define __HI_LANG_MATERIALIZE_GLOBAL_OBJECT__
+#endif __HI_LANG_MATERIALIZE_GLOBAL_OBJECT__
+
+#include <hi/lang/lang.hpp>
+
+#undef __HI_LANG_MATERIALIZE_GLOBAL_OBJECT__

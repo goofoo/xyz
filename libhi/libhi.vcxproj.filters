@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hi">
+      <UniqueIdentifier>{26972273-aada-49b3-a2e3-a7890d4983f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hi\thread">
+      <UniqueIdentifier>{afd6c07a-7c53-4c27-9167-6e1ed7e545c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hi\util">
+      <UniqueIdentifier>{801ed255-3b9c-4679-a5a2-a7db217e220e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hi\image">
+      <UniqueIdentifier>{2cdb3a2c-f666-42e0-86d8-ee61dec2565a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hi\math">
+      <UniqueIdentifier>{902a1bee-a683-4a0d-b0ca-c04187399b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hi\sds">
+      <UniqueIdentifier>{22370130-7baf-43c6-a688-2a13ab3dd6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hi\file">
+      <UniqueIdentifier>{c52709e3-a716-41a9-980f-859e4caddfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hi\lang">
+      <UniqueIdentifier>{98998d11-b3ae-4ffb-bc3b-fa367faafb60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hi\file.hpp">
+      <Filter>hi</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\image.hpp">
+      <Filter>hi</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\lang.hpp">
+      <Filter>hi</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\math.hpp">
+      <Filter>hi</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\sds.hpp">
+      <Filter>hi</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\thread.hpp">
+      <Filter>hi</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\util.hpp">
+      <Filter>hi</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\thread\atomic.hpp">
+      <Filter>hi\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\thread\monitor_object.hpp">
+      <Filter>hi\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\thread\runnable.hpp">
+      <Filter>hi\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\thread\synchronized.hpp">
+      <Filter>hi\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\thread\thread.hpp">
+      <Filter>hi\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\util\algorithm.hpp">
+      <Filter>hi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\util\string.hpp">
+      <Filter>hi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\util\vector.hpp">
+      <Filter>hi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\image\color_space.hpp">
+      <Filter>hi\image</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\image\memory_image.hpp">
+      <Filter>hi\image</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\image\spectrum.hpp">
+      <Filter>hi\image</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\math\math.hpp">
+      <Filter>hi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\math\sh.hpp">
+      <Filter>hi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\math\vector2.hpp">
+      <Filter>hi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\math\vector3.hpp">
+      <Filter>hi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\math\vector4.hpp">
+      <Filter>hi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\sds\array_kdtree.hpp">
+      <Filter>hi\sds</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\file\file.hpp">
+      <Filter>hi\file</Filter>
+    </ClInclude>
+    <ClInclude Include="hi\math\promote_traits.hpp">
+      <Filter>hi\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hi\thread\monitor_object.cpp">
+      <Filter>hi\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="hi\thread\runnable.cpp">
+      <Filter>hi\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="hi\thread\thread.cpp">
+      <Filter>hi\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="hi\image\memory_image.cpp">
+      <Filter>hi\image</Filter>
+    </ClCompile>
+    <ClCompile Include="hi\image\spectrum.cpp">
+      <Filter>hi\image</Filter>
+    </ClCompile>
+    <ClCompile Include="hi\math\sh.cpp">
+      <Filter>hi\math</Filter>
+    </ClCompile>
+    <ClCompile Include="hi\file\file.cpp">
+      <Filter>hi\file</Filter>
+    </ClCompile>
+    <ClCompile Include="hi\lang\lang.cpp">
+      <Filter>hi\lang</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hi\sds\array_kdtree.inl">
+      <Filter>hi\sds</Filter>
+    </None>
+  </ItemGroup>
+</Project>

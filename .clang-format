@@ -1,0 +1,6 @@
+---
+# cd src & for %i in (*.cpp;*.hpp) do clang-format -i %i
+BasedOnStyle: Google
+Standard: C++11
+UseTab: Never
+IndentCaseLabels: false

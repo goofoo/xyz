@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="geom">
+      <UniqueIdentifier>{b1e538b0-44e4-4eb5-b331-eb1d14a9b4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geom\ヘッダー ファイル">
+      <UniqueIdentifier>{25a3284a-52fb-41bf-a02e-18e0cf9f2f83}</UniqueIdentifier>
+      <Extensions>.hpp</Extensions>
+    </Filter>
+    <Filter Include="geom\ソース ファイル">
+      <UniqueIdentifier>{460b1fcf-feee-42ef-9d0b-0c016f853e4a}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{80a5698b-b99a-4331-b48d-f2cd1a47bad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\ヘッダー ファイル">
+      <UniqueIdentifier>{86857589-87a5-4b3e-98fd-6bcb7498a3cd}</UniqueIdentifier>
+      <Extensions>.hpp</Extensions>
+    </Filter>
+    <Filter Include="core\ソース ファイル">
+      <UniqueIdentifier>{e1816722-07e3-4e9f-934b-9f33835e2573}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="bsdf">
+      <UniqueIdentifier>{d0df3873-dafa-4e46-8924-92466410ee8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsdf\ヘッダー ファイル">
+      <UniqueIdentifier>{6c27d4c3-1c23-4f0d-9d67-e5dbe3b3c7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsdf\ソース ファイル">
+      <UniqueIdentifier>{bac3fc03-df40-4b4c-8994-29a5f961ed54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="integrator">
+      <UniqueIdentifier>{da89ae28-4a39-4637-9e90-ca173f6cd348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="integrator\ヘッダー ファイル">
+      <UniqueIdentifier>{ba8248e8-a986-4279-be72-82a45f61e4c0}</UniqueIdentifier>
+      <Extensions>.hpp</Extensions>
+    </Filter>
+    <Filter Include="integrator\ソース ファイル">
+      <UniqueIdentifier>{56c8beb2-0f8f-4402-ad82-96179d10cb3e}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\config.hpp">
+      <Filter>core\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="core\imagefilm.hpp">
+      <Filter>core\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="core\shell.hpp">
+      <Filter>core\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="core\thinlenscamera.hpp">
+      <Filter>core\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.hpp" />
+    <ClInclude Include="geom\triangle.hpp">
+      <Filter>geom\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="core\scene.hpp">
+      <Filter>core\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="core\photonmap.hpp">
+      <Filter>core\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="geom\path.hpp">
+      <Filter>geom\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="geom\pathvertex.hpp">
+      <Filter>geom\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bsdf\bsdf.hpp">
+      <Filter>bsdf\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bsdf\glass.hpp">
+      <Filter>bsdf\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bsdf\lambert.hpp">
+      <Filter>bsdf\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bsdf\light.hpp">
+      <Filter>bsdf\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bsdf\metal.hpp">
+      <Filter>bsdf\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bsdf\mirror.hpp">
+      <Filter>bsdf\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="geom\kdtree.hpp">
+      <Filter>geom\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="geom\intersection.hpp">
+      <Filter>geom\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="integrator\integrator.hpp">
+      <Filter>integrator\ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\config.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\imagefilm.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene_bidirectionalpathtracing.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene_importancedrivenbidirectionalpathtracing.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene_importancedrivenpathtracing.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene_pathtracing.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene_resampledpathtracing.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\shell.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\thinlenscamera.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="geom\kdtree.cpp">
+      <Filter>geom\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene_mqo.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene_photonmap.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\imagefilm_hdr.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bsdf\bsdf.cpp">
+      <Filter>bsdf\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bsdf\glass.cpp">
+      <Filter>bsdf\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bsdf\lambert.cpp">
+      <Filter>bsdf\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bsdf\light.cpp">
+      <Filter>bsdf\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bsdf\metal.cpp">
+      <Filter>bsdf\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bsdf\mirror.cpp">
+      <Filter>bsdf\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="core\photonmap.cpp">
+      <Filter>core\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="geom\pathvertex.cpp">
+      <Filter>geom\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="geom\triangle.cpp">
+      <Filter>geom\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="integrator\integrator.cpp">
+      <Filter>integrator\ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
